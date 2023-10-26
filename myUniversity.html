@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My University</title>
+    <style>
+        .circle{
+            width: 220px;
+            height: 220px;
+            background-color: #007bff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            color: #fff;
+        }
+
+        .middle-circle{
+            float:left;
+            width: 220px;
+            height: 220px;
+            background-color: pink;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 38px;
+            color:#fff;
+        }
+
+        .clubs{
+            float:left;
+            width: 220px;
+            height: 220px;
+            background-color: burlywood;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            color:#fff;
+        }
+        .button{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            background-color:#007bff;
+            color:#fff;
+            text-decoration:none;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header{
+            display: flex;
+            align-items: left;
+        }
+        .logo{
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        ul{
+            list-style: none;
+        }
+        .single-line{
+            white-space:nowrap;
+        }
+
+    </style>
+</head>
+<body>
+    <div class=".header">
+        <img src="csi.png" alt="College Logo" class="logo">
+        <a href="index.html" class="button">Back to Main Page</a>
+    </div>
+    <header>
+        <h1>Welcome to the College of Staten Island</h1>
+    </header>
+    <div class="container">
+        <span class="single-line">The College of Staten Island (CSI) is a prominent institution located in Staten Island of New York City.</span>
+        <ul>
+            <li> College of Staten Island</li>
+            <li>     2800 Victory Blvd </li>
+            <li> Staten Island, New York, 10314, USA</li>
+            <li>     Tel: 718-982-2000        </li>
+            <li> _____________________________</li>
+            <li>         Campus Map    <a href="https://www.google.com/maps?q=2800+Victory+Blvd,Staten+Island,NY,10314" target="_blank">Direction</a></li>
+            <iframe 
+                width="450"
+                height="350"
+                frameborder="0"
+                style="border:0"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.245145028243!2d-74.15269678460438!3d40.602716842045135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24f90abf8d1c3%3A0x35c022d7f1d88ae3!2sCollege%20of%20Staten%20Island%20(Staten%20Island%20Campus)!5e0!3m2!1sen!2sus!4v1641523467282!5m2!1sen!2sus"
+    allowfullscreen>
+</iframe>
+        
+        <h2>About My Accadmic</h2>
+        <div class="circle">
+            Major:<br>
+            Computer Science<br>
+                   &<br>
+                 Math<br>
+        </div>
+
+        <div class="middle-circle">
+        Courses taking:<br>
+        Software Development<br> 
+        High Performance<br>
+        Philosophy<br>
+        Fundamentals of Digial Systems<br>
+        </div>
+
+        <div class="clubs">
+            Clubs:<br>
+            AAPI<br>
+            CS Club<br>
+            NSCS<br>
+        </div>
+        </ul>
+    </div>
+</body>
+</html>
